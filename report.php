@@ -43,7 +43,7 @@ if (isset($_GET['submit'])) {
 
   <style type="text/css">
     * {
-      event-box-sizing: border-event-box;
+      box-sizing: border-box;
     }
 
     html,
@@ -216,15 +216,6 @@ if (isset($_GET['submit'])) {
       padding-top: 40px;
     }
 
-    /*---- Score section CSS ---*/
-    /* #score h2 {
-         position: relative;
-         margin-left: 40px;
-         } */
-    #score {
-      /* height: 1494.91px; */
-    }
-
     #score img {
       width: 100%;
     }
@@ -250,8 +241,6 @@ if (isset($_GET['submit'])) {
       vertical-align: middle;
       font-size: 22px;
     }
-
-    .score-text h2 {}
 
     .score-img {
       display: table-cell;
@@ -336,23 +325,11 @@ if (isset($_GET['submit'])) {
       position: relative;
     }
 
-    #skills {}
-
     #skills h2 {
       position: relative;
       margin-bottom: 60px;
     }
-
-    /* #strengths h2:before, #benefits h2:before, #score h2:before, #skills h2:before {
-         content: "";
-         position: absolute;
-         width: 3px;
-         height: 30px;
-         background: #4f1a48;
-         left: -19px;
-         top: 6px;
-         bottom: 0;
-         } */
+    
     #strengths ul li {
       font-size: 22px;
       font-weight: 300;
